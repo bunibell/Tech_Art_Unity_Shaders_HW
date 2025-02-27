@@ -78,6 +78,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f22a27048d8f47fd817e6f01c42bb32f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: de9ac2572f44cfd48942c1235a1160a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -104,6 +108,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Adjust: 0.674
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -122,8 +127,10 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _NoiseScale: 34.3
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Projection_Strength: 8.27
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -133,12 +140,15 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _Timer: 7.8
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - _intensity: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorEmissive: {r: 137.187, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 22.595514, g: 0, b: 0, a: 1}
+    - _Projection_Strength: {r: 0, g: 0, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
